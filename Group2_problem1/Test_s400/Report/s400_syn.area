@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : s400
+Version: U-2022.12
+Date   : Thu Nov  9 11:27:17 2023
+****************************************
+
+Library(s) Used:
+
+    slow (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/slow.db)
+
+Number of ports:                           11
+Number of nets:                            99
+Number of cells:                           95
+Number of combinational cells:             74
+Number of sequential cells:                21
+Number of macros/black boxes:               0
+Number of buf/inv:                         16
+Number of references:                      24
+
+Combinational area:                456.600603
+Buf/Inv area:                       59.408999
+Noncombinational area:             534.681009
+Macro/Black Box area:                0.000000
+Net Interconnect area:           10733.386871
+
+Total cell area:                   991.281612
+Total area:                      11724.668484
+1

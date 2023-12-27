@@ -1,0 +1,115 @@
+ 
+****************************************
+Report : cell
+Design : s400
+Version: U-2022.12
+Date   : Thu Nov  9 11:28:22 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+DFF_0_I1_Q_reg            SDFFQX1         slow            32.250599 n
+DFF_1_I1_Q_reg            SDFFQX1         slow            32.250599 n
+DFF_2_I1_Q_reg            SDFFQX1         slow            32.250599 n
+DFF_3_I1_Q_reg            SDFFQXL         slow            32.250599 n
+DFF_4_I1_Q_reg            SDFFQXL         slow            32.250599 n
+DFF_5_I1_Q_reg            SDFFQX1         slow            32.250599 n
+DFF_6_I1_Q_reg            SDFFQX1         slow            32.250599 n
+DFF_7_I1_Q_reg            SDFFQX1         slow            32.250599 n
+DFF_8_I1_Q_reg            SDFFQX1         slow            32.250599 n
+DFF_9_I1_Q_reg            SDFFQX1         slow            32.250599 n
+DFF_10_I1_Q_reg           SDFFQXL         slow            32.250599 n
+DFF_11_I1_Q_reg           SDFFQX1         slow            32.250599 n
+DFF_12_I1_Q_reg           SDFFQX1         slow            32.250599 n
+DFF_13_I1_Q_reg           SDFFQXL         slow            32.250599 n
+DFF_14_I1_Q_reg           SDFFQX1         slow            32.250599 n
+DFF_15_I1_Q_reg           SDFFQX1         slow            32.250599 n
+DFF_16_I1_Q_reg           SDFFQX1         slow            32.250599 n
+DFF_17_I1_Q_reg           SDFFQXL         slow            32.250599 n
+DFF_18_I1_Q_reg           SDFFQXL         slow            32.250599 n
+DFF_19_I1_Q_reg           SDFFQX1         slow            32.250599 n
+DFF_20_I1_Q_reg           SDFFQX1         slow            32.250599 n
+U1                        OAI31X1         slow            10.184400 
+U2                        NAND3XL         slow            6.789600  
+U3                        OA21XL          slow            8.487000  
+U4                        NAND2XL         slow            5.092200  
+U5                        NOR2XL          slow            5.092200  
+U6                        AOI211XL        slow            8.487000  
+U73                       INVX3           slow            5.092200  
+U74                       NOR2XL          slow            5.092200  
+U75                       INVXL           slow            3.394800  
+U76                       NAND2XL         slow            5.092200  
+U77                       INVXL           slow            3.394800  
+U78                       NAND2XL         slow            5.092200  
+U79                       AOI211XL        slow            8.487000  
+U80                       AND2X1          slow            6.789600  
+U81                       INVX1           slow            3.394800  
+U82                       AND3X1          slow            8.487000  
+U83                       NOR2XL          slow            5.092200  
+U84                       INVX1           slow            3.394800  
+U85                       INVX1           slow            3.394800  
+U86                       INVX1           slow            3.394800  
+U87                       BUFX2           slow            6.789600  
+U88                       INVX1           slow            3.394800  
+U89                       INVX1           slow            3.394800  
+U90                       INVX1           slow            3.394800  
+U91                       NOR2XL          slow            5.092200  
+U92                       CLKINVX1        slow            3.394800  
+U93                       NAND4X1         slow            8.487000  
+U94                       OAI211X1        slow            8.487000  
+U95                       OAI31XL         slow            8.487000  
+U96                       OAI31XL         slow            8.487000  
+U98                       NAND2BX1        slow            6.789600  
+U99                       NAND2BX1        slow            6.789600  
+U100                      CLKINVX1        slow            3.394800  
+U101                      NOR3X1          slow            6.789600  
+U102                      NAND2BX1        slow            6.789600  
+U103                      NAND2X1         slow            5.092200  
+U104                      NOR2X1          slow            5.092200  
+U105                      NOR2X1          slow            5.092200  
+U106                      NOR2X1          slow            5.092200  
+U107                      INVX1           slow            3.394800  
+U108                      INVX1           slow            3.394800  
+U109                      OAI31XL         slow            8.487000  
+U110                      NAND2XL         slow            5.092200  
+U111                      AOI221XL        slow            11.881800 
+U112                      NAND2X1         slow            5.092200  
+U113                      OAI21XL         slow            6.789600  
+U114                      NOR2X1          slow            5.092200  
+U115                      AOI211X1        slow            8.487000  
+U116                      NOR2X1          slow            5.092200  
+U117                      AOI211X1        slow            8.487000  
+U118                      NOR3X1          slow            6.789600  
+U120                      AOI211X1        slow            8.487000  
+U121                      OAI31XL         slow            8.487000  
+U122                      NAND2X1         slow            5.092200  
+U123                      AOI211X1        slow            8.487000  
+U124                      AOI211X1        slow            8.487000  
+U125                      OAI21XL         slow            6.789600  
+U126                      NAND3X1         slow            6.789600  
+U127                      NAND2X1         slow            5.092200  
+U128                      NAND2X1         slow            5.092200  
+U129                      OAI21XL         slow            6.789600  
+U130                      NOR2X1          slow            5.092200  
+U131                      NAND2X1         slow            5.092200  
+U132                      NOR2X1          slow            5.092200  
+U134                      NOR2X1          slow            5.092200  
+U135                      AOI211X1        slow            8.487000  
+U137                      NOR2X1          slow            5.092200  
+U138                      AOI211X1        slow            8.487000  
+U139                      INVXL           slow            3.394800  
+U140                      AOI211X1        slow            8.487000  
+U143                      OAI21XL         slow            6.789600  
+U144                      AOI2BB1X1       slow            8.487000  
+U145                      AOI2BB1X1       slow            8.487000  
+U146                      AOI2BB1X1       slow            8.487000  
+--------------------------------------------------------------------------------
+Total 95 cells                                            1135.560579
+1

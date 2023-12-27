@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : s9234
+Version: U-2022.12
+Date   : Thu Nov  9 11:34:42 2023
+****************************************
+
+Library(s) Used:
+
+    slow (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/slow.db)
+
+Number of ports:                           91
+Number of nets:                           595
+Number of cells:                          556
+Number of combinational cells:            430
+Number of sequential cells:               125
+Number of macros/black boxes:               0
+Number of buf/inv:                        112
+Number of references:                      77
+
+Combinational area:               3311.627411
+Buf/Inv area:                      587.300393
+Noncombinational area:            4053.391075
+Macro/Black Box area:                0.000000
+Net Interconnect area:           78727.074219
+
+Total cell area:                  7365.018486
+Total area:                      86092.092705
+1

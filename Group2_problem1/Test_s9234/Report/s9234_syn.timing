@@ -1,0 +1,51 @@
+Information: Updating design information... (UID-85)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : s9234
+Version: U-2022.12
+Date   : Thu Nov  9 11:34:02 2023
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: g22 (input port clocked by CK)
+  Endpoint: g6360 (output port clocked by CK)
+  Path Group: CK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  s9234              tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CK (rise edge)                     0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                     5.00       5.50 f
+  g22 (in)                                 0.00       5.50 f
+  U560/Y (NOR2BX1)                         0.19       5.69 r
+  U528/Y (OAI211X4)                        0.37       6.06 f
+  U475/Y (NOR2X2)                          0.73       6.79 r
+  U791/Y (NAND2X1)                         0.63       7.42 f
+  g6360 (out)                              0.00       7.42 f
+  data arrival time                                   7.42
+
+  clock CK (rise edge)                    10.00      10.00
+  clock network delay (ideal)              0.50      10.50
+  clock uncertainty                       -0.10      10.40
+  output external delay                   -5.00       5.40
+  data required time                                  5.40
+  -----------------------------------------------------------
+  data required time                                  5.40
+  data arrival time                                  -7.42
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -2.02
+
+
+1

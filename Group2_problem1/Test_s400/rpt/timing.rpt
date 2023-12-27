@@ -1,0 +1,52 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : s400
+Version: U-2022.12
+Date   : Thu Nov  9 11:28:22 2023
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: CLR (input port clocked by CK)
+  Endpoint: DFF_3_I1_Q_reg
+            (rising edge-triggered flip-flop clocked by CK)
+  Path Group: CK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  s400               tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CK (rise edge)                     0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                     5.00       5.50 f
+  CLR (in)                                 0.00       5.50 f
+  U73/Y (INVX3)                            0.27       5.77 r
+  U76/Y (NAND2XL)                          0.34       6.11 f
+  U95/Y (OAI31XL)                          0.91       7.03 r
+  U112/Y (NAND2X1)                         0.34       7.37 f
+  U113/Y (OAI21XL)                         0.34       7.71 r
+  DFF_3_I1_Q_reg/D (SDFFQXL)               0.00       7.71 r
+  data arrival time                                   7.71
+
+  clock CK (rise edge)                    10.00      10.00
+  clock network delay (ideal)              0.50      10.50
+  clock uncertainty                       -0.10      10.40
+  DFF_3_I1_Q_reg/CK (SDFFQXL)              0.00      10.40 r
+  library setup time                      -0.23      10.17
+  data required time                                 10.17
+  -----------------------------------------------------------
+  data required time                                 10.17
+  data arrival time                                  -7.71
+  -----------------------------------------------------------
+  slack (MET)                                         2.46
+
+
+1

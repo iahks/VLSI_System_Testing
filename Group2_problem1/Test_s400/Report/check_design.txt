@@ -1,0 +1,25 @@
+ 
+****************************************
+check_design summary:
+Version:     U-2022.12
+Date:        Thu Nov  9 11:25:13 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      1
+    Unconnected ports (LINT-28)                                     1
+
+Cells                                                               1
+    Cells have undriven hier pins (LINT-59)                         1
+
+Nets                                                                2
+    Unloaded nets (LINT-2)                                          1
+    Undriven nets (LINT-3)                                          1
+--------------------------------------------------------------------------------
+
+Warning: In design 's400', net 'CLKBVIIR1' driven by pin 'NOT_57/Z' has no loads. (LINT-2)
+Warning: In design 's400', net 'Phi1H' has no drivers.  Logic 0 assumed. (LINT-3)
+Warning: In design 's400', port 'VDD' is not connected to any nets. (LINT-28)
+Warning: In design 's400', input pin 'A' of hierarchical cell 'NOT_57' has one or more internal loads, but is not connected to any nets. 'Logic 0' is assumed. (LINT-59)
+1
