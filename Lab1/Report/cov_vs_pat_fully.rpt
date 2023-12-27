@@ -1,0 +1,135 @@
+ Simulation performed for 911 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 1             225    686    24.70%      0.00
+ Fault simulation completed: #patterns=1, CPU time=0.00
+ Simulation performed for 686 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 5             267    419    54.01%      0.00
+ Fault simulation completed: #patterns=5, CPU time=0.00
+ Simulation performed for 419 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 9             100    319    64.98%      0.00
+ Fault simulation completed: #patterns=9, CPU time=0.00
+ Simulation performed for 319 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 13             85    234    74.31%      0.00
+ Fault simulation completed: #patterns=13, CPU time=0.00
+ Simulation performed for 234 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 17             34    200    78.05%      0.00
+ Fault simulation completed: #patterns=17, CPU time=0.00
+ Simulation performed for 200 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 21             16    184    79.80%      0.00
+ Fault simulation completed: #patterns=21, CPU time=0.00
+ Simulation performed for 184 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 25             36    148    83.75%      0.00
+ Fault simulation completed: #patterns=25, CPU time=0.00
+ Simulation performed for 148 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 29             31    117    87.16%      0.00
+ Fault simulation completed: #patterns=29, CPU time=0.00
+ Simulation performed for 117 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 32              9    108    88.14%      0.00
+ 33              3    105    88.47%      0.00
+ Fault simulation completed: #patterns=33, CPU time=0.00
+ Simulation performed for 105 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 37             30     75    91.77%      0.00
+ Fault simulation completed: #patterns=37, CPU time=0.00
+ Simulation performed for 75 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 41             23     52    94.29%      0.00
+ Fault simulation completed: #patterns=41, CPU time=0.00
+ Simulation performed for 52 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 45             13     39    95.72%      0.00
+ Fault simulation completed: #patterns=45, CPU time=0.00
+ Simulation performed for 39 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 49              9     30    96.71%      0.00
+ Fault simulation completed: #patterns=49, CPU time=0.00
+ Simulation performed for 30 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 53              7     23    97.48%      0.00
+ Fault simulation completed: #patterns=53, CPU time=0.00
+ Simulation performed for 23 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 57              5     18    98.02%      0.00
+ Fault simulation completed: #patterns=57, CPU time=0.00
+ Simulation performed for 18 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 61              4     14    98.46%      0.00
+ Fault simulation completed: #patterns=61, CPU time=0.00
+ Simulation performed for 14 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 64              4     10    98.90%      0.00
+ 65              2      8    99.12%      0.00
+ Fault simulation completed: #patterns=65, CPU time=0.00
+ Simulation performed for 8 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 69              5      3    99.67%      0.00
+ Fault simulation completed: #patterns=69, CPU time=0.00
+ Simulation performed for 3 faults on circuit size of 384 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 72              3      0   100.00%      0.00
+ Fault simulation completed: #patterns=72, CPU time=0.00

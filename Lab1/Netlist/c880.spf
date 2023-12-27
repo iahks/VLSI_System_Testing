@@ -1,0 +1,186 @@
+STIL 1.0 {
+    Design 2005;
+}
+Header {
+    Title "Minimal STIL for design `c880'";
+    Date "Thu Oct 26 12:35:45 2023";
+    Source "DFT Compiler U-2022.12";
+}
+Signals {
+    "G1" In;
+    "G10" In;
+    "G11" In;
+    "G12" In;
+    "G13" In;
+    "G14" In;
+    "G15" In;
+    "G16" In;
+    "G17" In;
+    "G18" In;
+    "G19" In;
+    "G2" In;
+    "G20" In;
+    "G21" In;
+    "G22" In;
+    "G23" In;
+    "G24" In;
+    "G25" In;
+    "G26" In;
+    "G27" In;
+    "G28" In;
+    "G29" In;
+    "G3" In;
+    "G30" In;
+    "G31" In;
+    "G32" In;
+    "G33" In;
+    "G34" In;
+    "G35" In;
+    "G36" In;
+    "G37" In;
+    "G38" In;
+    "G39" In;
+    "G4" In;
+    "G40" In;
+    "G41" In;
+    "G42" In;
+    "G43" In;
+    "G44" In;
+    "G45" In;
+    "G46" In;
+    "G47" In;
+    "G48" In;
+    "G49" In;
+    "G5" In;
+    "G50" In;
+    "G51" In;
+    "G52" In;
+    "G53" In;
+    "G54" In;
+    "G55" In;
+    "G56" In;
+    "G57" In;
+    "G58" In;
+    "G59" In;
+    "G6" In;
+    "G60" In;
+    "G7" In;
+    "G8" In;
+    "G9" In;
+    "G855" Out;
+    "G856" Out;
+    "G857" Out;
+    "G858" Out;
+    "G859" Out;
+    "G860" Out;
+    "G861" Out;
+    "G862" Out;
+    "G863" Out;
+    "G864" Out;
+    "G865" Out;
+    "G866" Out;
+    "G867" Out;
+    "G868" Out;
+    "G869" Out;
+    "G870" Out;
+    "G871" Out;
+    "G872" Out;
+    "G873" Out;
+    "G874" Out;
+    "G875" Out;
+    "G876" Out;
+    "G877" Out;
+    "G878" Out;
+    "G879" Out;
+    "G880" Out;
+}
+SignalGroups {
+    "all_inputs" = '"G1" + "G10" + "G11" + "G12" + "G13" + "G14" + "G15" + "G16" 
+    + "G17" + "G18" + "G19" + "G2" + "G20" + "G21" + "G22" + "G23" + "G24" + 
+    "G25" + "G26" + "G27" + "G28" + "G29" + "G3" + "G30" + "G31" + "G32" + "G33" 
+    + "G34" + "G35" + "G36" + "G37" + "G38" + "G39" + "G4" + "G40" + "G41" + 
+    "G42" + "G43" + "G44" + "G45" + "G46" + "G47" + "G48" + "G49" + "G5" + "G50" 
+    + "G51" + "G52" + "G53" + "G54" + "G55" + "G56" + "G57" + "G58" + "G59" + 
+    "G6" + "G60" + "G7" + "G8" + "G9"';
+    "all_outputs" = '"G855" + "G856" + "G857" + "G858" + "G859" + "G860" + 
+    "G861" + "G862" + "G863" + "G864" + "G865" + "G866" + "G867" + "G868" + 
+    "G869" + "G870" + "G871" + "G872" + "G873" + "G874" + "G875" + "G876" + 
+    "G877" + "G878" + "G879" + "G880"';
+    "all_ports" = '"all_inputs" + "all_outputs"';
+    "_pi" = '"all_inputs"';
+    "_po" = '"all_outputs"';
+}
+ScanStructures {
+}
+Timing {
+    WaveformTable "_default_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+        }
+    }
+}
+Procedures {
+    "capture" {
+        W "_default_WFT_";
+        V {
+            "_pi" = \r60 #;
+        }
+        V {
+            "_po" = \r26 #;
+        }
+    }
+}
+MacroDefs {
+    "test_setup" {
+        W "_default_WFT_";
+        V {
+        }
+        V {
+        }
+    }
+}
+

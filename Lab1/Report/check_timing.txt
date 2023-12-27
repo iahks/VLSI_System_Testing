@@ -1,0 +1,47 @@
+Information: Updating design information... (UID-85)
+
+Information: Checking generated_clocks...
+
+Information: Checking loops...
+
+Information: Checking no_input_delay...
+
+Information: Checking unconstrained_endpoints...
+
+Warning: The following end-points are not constrained for maximum delay.
+
+End point
+---------------
+G855
+G856
+G857
+G858
+G859
+G860
+G861
+G862
+G863
+G864
+G865
+G866
+G867
+G868
+G869
+G870
+G871
+G872
+G873
+G874
+G875
+G876
+G877
+G878
+G879
+G880
+
+Information: Checking pulse_clock_cell_type...
+
+Information: Checking no_driving_cell...
+
+Information: Checking partial_input_delay...
+1

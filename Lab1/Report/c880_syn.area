@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : c880
+Version: U-2022.12
+Date   : Thu Oct 26 12:37:58 2023
+****************************************
+
+Library(s) Used:
+
+    slow (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/slow.db)
+
+Number of ports:                           86
+Number of nets:                           236
+Number of cells:                          176
+Number of combinational cells:            176
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         29
+Number of references:                      34
+
+Combinational area:               1288.326591
+Buf/Inv area:                      100.146598
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:           23613.451721
+
+Total cell area:                  1288.326591
+Total area:                      24901.778312
+1
